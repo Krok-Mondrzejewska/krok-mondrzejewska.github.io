@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+
+:root {
+  --font-family:'Karla', sans-serif;
+  --primary: #ff4d6d;
+  --black: #1d1d1d;
+  --light: #fafafa;
+  --active: #343a40;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.is-light {
+  background-color: var(--light);
+}
+
+.is-dark {
+  color: var(--light);
+  background-color: var(--active);
+}
+
+.scale-06 {
+  transform: scale(0.6);
+}
+
+.scale-08 {
+  transform: scale(0.8);
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--black);
+  font-size: 16px;
+  outline: none;
+}
+
+.navbar.is-danger {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.navbar-item img {
+    max-height: 4rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar-item img {
+    max-height: 3rem;
+}
+}
+
+.active {
+  color: var(--active);
+  font-weight: bold;
+}
