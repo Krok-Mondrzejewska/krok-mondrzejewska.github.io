@@ -14,6 +14,18 @@
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <!--====== Custom css ======-->
     <link rel="stylesheet" href="css/custom.css" />
+    <!--====== Cookies ======-->
+    <script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+    <script>
+        CookieAlert.init({
+            style: 'light',
+            position: 'bottom',
+            opacity: '1',
+            displayTime: 0,
+            cookiePolicy: '/#polityka-prywatnosci',
+            text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+        });
+    </script>
 </head>
 
 <body>
@@ -55,18 +67,10 @@
                         </a>
 
                         <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                Plik 1
-                            </a>
-                            <a class="navbar-item">
-                                Plik 2
-                            </a>
-                            <a class="navbar-item">
-                                Plik 3
-                            </a>
-                            <a class="navbar-item">
-                                Plik 4
-                            </a>
+                            <a class="navbar-item" href="#">Plik 1</a>
+                            <a class="navbar-item" href="#">Plik 2</a>
+                            <a class="navbar-item" href="#">Plik 3</a>
+                            <a class="navbar-item" href="#">Plik 4</a>
                         </div>
                     </div>
                 </div>
@@ -351,8 +355,6 @@
                 $(this).addClass("active");
             });
         });
-
-
     </script>
 
 </body>
