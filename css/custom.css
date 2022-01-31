@@ -2,8 +2,6 @@
 
 :root {
   --font-family: "Karla", sans-serif;
-  --primary: #ff4d6d;
-  --second: #e63946;
   --black: #1d1d1d;
   --light: #e9ecef;
   --active: #343a40;
@@ -11,10 +9,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-.is-second {
-  background-color: var(--second);
 }
 
 .is-light {
